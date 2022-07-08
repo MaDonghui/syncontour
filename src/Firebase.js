@@ -5,16 +5,7 @@ import "firebase/app-check"
 
 
 // firebase config, do not manually modify this
-const firebaseConfig = {
-  apiKey: "AIzaSyDPhozaIlHvGrw6iIMUgm8aZMgoYzi0CuM",
-  authDomain: "syncontour-9171a.firebaseapp.com",
-  databaseURL: "https://syncontour-9171a-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "syncontour-9171a",
-  storageBucket: "syncontour-9171a.appspot.com",
-  messagingSenderId: "11782322264",
-  appId: "1:11782322264:web:ae15c5741d8a8c43dbf22d",
-  measurementId: "G-KVBRKH7J97"
-};
+const firebaseConfig = {};  // insert this
 
 // Initialize Firebase
 const myFirebase = firebase.initializeApp(firebaseConfig);
